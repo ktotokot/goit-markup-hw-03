@@ -71,6 +71,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .logo-part {color: #2e2f42;}
 
@@ -99,6 +100,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.02em;
+padding: 24px 0;
 }
 
 .contacts {
@@ -153,8 +155,18 @@ border: none;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.features-title {
-  visibility: hidden;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .features-card {
   max-width: 264px;
