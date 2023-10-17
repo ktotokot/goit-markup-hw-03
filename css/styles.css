@@ -57,8 +57,6 @@ margin: 0 auto;
 /* #endregion */
 /* #region header */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #E7E9FC;
 }
 
@@ -78,7 +76,6 @@ margin-right: 76px;
 .nav-header {
   display: flex;
   align-items: center;
-gap: 76px;
 }
 .nav-list {
   display: flex;
@@ -93,6 +90,7 @@ gap: 76px;
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-link {
   color: #2e2f42;
@@ -101,6 +99,7 @@ font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.02em;
 padding: 24px 0;
+display: block;
 }
 
 .contacts {
@@ -110,6 +109,7 @@ padding: 24px 0;
   font-size: 16px;
 }
 /* #endregion */
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -122,6 +122,7 @@ padding: 24px 0;
   background-color: #2E2F42;
   padding: 188px 0;
 }
+
 .title {
   color: #FFF;
 text-align: center;
@@ -131,7 +132,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 max-width: 496px;
 margin-bottom: 48px;
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-button {
@@ -144,16 +146,14 @@ background: #4D5AE5);
 min-width: 169px;
 height: 56px;
 border: none;
+margin-left: auto;
+margin-right: auto;
 }
 /* #endregion */
 
 /* #region features */
 .features-section {
   padding: 120px 0;
-}
-.features-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -212,9 +212,7 @@ margin-bottom: 8px;
   align-items: center;
   gap: 24px;
 }
-.team-list-image {
-  margin-bottom: 32px;
-}
+
 .team-card-title {
   color: #2E2F42;
 font-size: 20px;
@@ -250,8 +248,7 @@ margin-bottom: 8px;
 .portfolio-card {
   width: calc((100% - 48px) / 3);}
   
-.portfolio-list-image {
-}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -289,9 +286,7 @@ border-right: 1px solid #E7E9FC;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-container {
-  
-}
+
 .logo-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -309,7 +304,6 @@ margin-bottom: 16px;
 }
 .footer-text {
   font-family: Roboto;
-margin-top: 17px;
   color: #F4F4FD;
   font-size: 16px;
   line-height: 1.5;
